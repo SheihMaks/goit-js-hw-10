@@ -31,9 +31,11 @@ padding: 0;
 
 }
 .image__style{
-  width: 50px;
+  width: 60px;
   height: 50px;
 }
 .name-country{
   padding: 15px;
+  font-size: 24px;
+  font-weight: 600;
 }

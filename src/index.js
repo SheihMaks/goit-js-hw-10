@@ -38,11 +38,3 @@ function onSearchCountries(e) {
     })
     .catch(error => Notiflix.Notify.failure('Oops, there is no country with that name'));
 }
-
-// function markUp(data) {
-//   // const { name } = data;
-//   data.map(el => {
-//     console.log(el.name.official);
-//     return `<p>${el.name.official}</p>`;
-//   });
-// }
