@@ -27,7 +27,7 @@ function onSearchCountries(e) {
   onSearchCountry(country)
     .then(data => {
       if (data.length > 10) {
-        Notiflix.Notify.success('Too many matches found. Please enter a more specific name.');
+        Notiflix.Notify.warning('Too many matches found. Please enter a more specific name.');
       } else if (data.length > 1 && data.length <= 10) {
         console.log(data);
         refs.countryList.insertAdjacentHTML('afterbegin', markupCountriesList(data));
