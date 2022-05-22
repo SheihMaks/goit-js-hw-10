@@ -1,0 +1,2 @@
+{{#each this}}<div class="card__main"><img src="{{flags.svg}}" alt="{{name.official}}" class="flag__card"/><h1 class="card__header">{{name.official}}</h1></div>
+<p class="card__info">Capital:<span class="info__value">{{capital}}</span></p><p class="card__info">Population:<span class="info__value">{{population}}</span></p><p class="card__info">Languages:<span class="info__value">{{#each languages}}{{this}},{{/each}}</span></p>{{/each}}
