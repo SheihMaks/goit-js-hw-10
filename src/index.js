@@ -1,9 +1,10 @@
 import './css/styles.css';
 import debounce from 'lodash.debounce';
 import Notiflix from 'notiflix';
-import { fetchCountries } from './js/fetchCountries';
+
 import markupCountriesList from './templates/markupCountriesList.hbs';
 import markupCountryCard from './templates/markupCountryCard.hbs';
+import { fetchCountries } from './js/fetchCountries';
 const DEBOUNCE_DELAY = 300;
 const refs = {
   input: document.querySelector('#search-box'),
